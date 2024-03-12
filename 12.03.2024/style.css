@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+}
+
+p {
+    color: red;
+    margin-bottom: 0;
+}
+
+li:nth-child(3) {
+    color: blue;
+}
+
+li:nth-child(2) {
+    color: green;
+}
+
+.note {
+    font-size: 20px;
+}
+
+ol {
+    list-style-position: inside;
+    margin-top: 0px;
+}
