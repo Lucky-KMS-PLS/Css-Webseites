@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Placement</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 2fr;
+            /* Adjusted column sizes */
+            gap: 10px;
+            /* White gap as before */
+            background-color: white;
+            /* Background color of gaps */
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: blueviolet;
+            font-size: 5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item cowboy">🤠</div>
+        <div class="item astronaut">👨‍🚀</div>
+        <div class="item book">📖</div>
+    </div>
+</body>
+
+</html>
