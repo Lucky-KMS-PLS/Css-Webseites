@@ -1,0 +1,98 @@
+**Bilder**:
+- Welche Vorteile bietet die Speicherung von Bildern in der Cloud gegenüber lokalen Speichermedien?
+- Welche Qualitätsunterschiede können beim Hochladen von Bildern zu Cloud-Speicherdiensten auftreten?
+
+Die Speicherung von Bildern in der Cloud bietet mehrere Vorteile gegenüber lokalen Speichermedien. 
+Cloud-Speicher ermöglichen den Zugriff auf Bilder von jedem Gerät mit Internetverbindung, 
+bieten automatische Backups, flexible Speicherkapazitäten und erleichtern das Teilen
+und die Zusammenarbeit. Zudem übernehmen Cloud-Anbieter die Wartung und Aktualisierung der Infrastruktur.
+
+Beim Hochladen von Bildern zu Cloud-Diensten können jedoch Qualitätsunterschiede auftreten. 
+Einige Dienste komprimieren Bilder, was zu Qualitätsverlust führen kann.
+ Es können auch Formatänderungen und Größenbeschränkungen bestehen, die die Auflösung beeinflussen.
+Die Upload-Geschwindigkeit und Stabilität hängt von der Internetverbindung ab, 
+und Metadaten könnten verloren gehen. Einige Dienste bieten jedoch die Option, Originaldateien zu
+speichern, um die bestmögliche Bildqualität zu gewährleisten. 
+Die Wahl des richtigen Dienstes ist entscheidend für die Erhaltung der Bildqualität.
+
+**Videos**:
+- Warum könnten Fotografen eine NAS (Network Attached Storage) gegenüber einer internen Festplatte für die Bildspeicherung bevorzugen?
+- Welche Faktoren sollten bei der Auswahl eines Cloud-Speicherdienstes für Videos berücksichtigt werden?
+- Warum speichert ihr dies nicht alles auf einem Stick?
+
+Fotografen könnten eine NAS (Network Attached Storage) gegenüber einer internen Festplatte bevorzugen, 
+da NAS-Lösungen mehrere Vorteile bieten. NAS ermöglicht den Zugriff auf gespeicherte Bilder 
+von verschiedenen Geräten über das Netzwerk, was die Zusammenarbeit und den Austausch von Dateien
+erleichtert. NAS-Systeme bieten oft höhere Speicherkapazitäten und können mit mehreren Festplatten
+konfiguriert werden, um redundante Backups und Datensicherheit durch RAID-Systeme zu gewährleisten.
+Zudem sind NAS-Geräte skalierbar, sodass Fotografen ihren Speicherplatz erweitern können, 
+ohne bestehende Daten migrieren zu müssen.
+
+Bei der Auswahl eines Cloud-Speicherdienstes für Videos sollten mehrere Faktoren berücksichtigt werden.
+Die Speicher- und Bandbreitenkapazität des Dienstes ist entscheidend, um große Videodateien effektiv
+hoch- und herunterladen zu können. Die unterstützten Videoformate und die maximale Dateigröße sind
+ebenfalls wichtig. Ein weiterer Faktor ist die Datensicherheit, einschließlich Verschlüsselung und
+Backup-Optionen. Die Kostenstruktur des Dienstes, insbesondere in Bezug auf Speichermenge und
+Datenübertragungen, sollte genau geprüft werden. Schließlich ist der Zugriff auf die Dateien und die
+Möglichkeit zur einfachen Freigabe und Zusammenarbeit ein wichtiger Aspekt.
+
+Das Speichern von Daten auf einem USB-Stick hat einige Nachteile im Vergleich zu anderen Speichermethoden.
+USB-Sticks bieten im Allgemeinen weniger Speicherplatz und können bei häufiger Nutzung leicht beschädigt
+oder verloren gehen. Sie sind nicht ideal für den Zugang von mehreren Geräten gleichzeitig und bieten
+keine integrierten Backup-Optionen. Zudem sind sie weniger sicher gegenüber physischen Diebstahl oder
+Verlust. Für umfangreiche Datenmengen, regelmäßige Backups und den Bedarf an Datensicherheit und Zugriff
+von verschiedenen Geräten sind NAS-Systeme oder Cloud-Speicher effizienter und zuverlässiger.
+
+**Text**:
+- Was sind die Vorteile von Cloud-basierten Textverarbeitungsdiensten wie Google Docs gegenüber traditionellen Textverarbeitungsprogrammen?
+- Ist eine SD Karte für die Speicherung von Text geeignet?
+
+
+Vorteile von Cloud-basierten Textverarbeitungsdiensten wie Google Docs gegenüber traditionellen Textverarbeitungsprogrammen
+Cloud-basierte Textverarbeitungsdienste wie Google Docs bieten mehrere Vorteile gegenüber traditionellen
+Programmen. Erstens ermöglichen sie den Zugriff auf Dokumente von jedem Gerät mit Internetverbindung, 
+unabhängig vom Standort, was die Flexibilität erheblich erhöht. Zweitens unterstützen sie die 
+Echtzeit-Kollaboration, wodurch mehrere Nutzer gleichzeitig an einem Dokument arbeiten und Änderungen
+sofort sehen können, was die Zusammenarbeit effizienter macht. Drittens bieten sie automatische
+Speicherung und Backups, wodurch das Risiko von Datenverlust durch Hardware-Ausfälle minimiert wird.
+Ein weiterer Vorteil ist die Versionskontrolle, da Google Docs verschiedene Versionen eines Dokuments
+speichert, sodass Änderungen nachverfolgt und ältere Versionen wiederhergestellt werden können.
+Diese Dienste sind plattformunabhängig und funktionieren auf verschiedenen Betriebssystemen und Geräten,
+ohne dass spezielle Software installiert werden muss. Schließlich sind viele Cloud-basierte
+Textverarbeitungsdienste kostenlos oder kostengünstiger als traditionelle Softwarelizenzen,
+was sie wirtschaftlich attraktiv macht.
+
+Ja, eine SD-Karte ist für die Speicherung von Textdateien geeignet. Textdateien benötigen im Allgemeinen
+wenig Speicherplatz, und SD-Karten bieten ausreichend Kapazität, um eine große Menge an Textdokumenten
+zu speichern. Sie sind tragbar, einfach zu verwenden und können leicht in verschiedene Geräte wie
+Computer, Tablets und Kameras eingesetzt werden. SD-Karten sind zudem relativ kostengünstig und können
+problemlos ausgetauscht oder erweitert werden. Allerdings sollten sie nicht als primäres Backup-Medium
+verwendet werden, da sie anfällig für physische Schäden und Datenkorruption sind. Für wichtige Dokumente
+ist es ratsam, zusätzliche Backup-Methoden wie Cloud-Speicher oder externe Festplatten zu verwenden.
+
+**Code:**
+Welche Anforderungen haben wir bei Code?
+
+Bei der Speicherung und Verwaltung von Code gibt es mehrere wichtige Anforderungen.
+Eine zentrale Anforderung ist die Versionskontrolle. Systeme wie Git ermöglichen das Nachverfolgen von 
+Änderungen, das Arbeiten an verschiedenen Versionszweigen und das Zusammenführen von Änderungen durch 
+mehrere Entwickler. Diese Funktionen sind entscheidend, um die Integrität und Nachvollziehbarkeit des 
+Codes sicherzustellen. Eine weitere Anforderung ist die Kollaboration. Entwickler müssen gemeinsam an 
+Projekten arbeiten können, unabhängig von ihrem physischen Standort. Plattformen wie GitHub oder GitLab 
+bieten Funktionen, die die Zusammenarbeit erleichtern, etwa durch Pull-Requests, Code-Reviews und 
+Issue-Tracking. Sicherheit ist ebenfalls eine wesentliche Anforderung. Der Code muss vor unbefugtem 
+Zugriff geschützt werden, und sensible Daten sollten verschlüsselt sein. Zugriffskontrollen und 
+Authentifizierungsmechanismen sind hierbei von zentraler Bedeutung. Zusätzlich spielt die Skalierbarkeit
+eine Rolle. Code-Repositories sollten in der Lage sein, mit der wachsenden Menge an Code und den 
+steigenden Anforderungen an Speicher und Leistung mitzuhalten. Cloud-basierte Dienste bieten hier oft 
+flexible Lösungen. Schließlich ist die Integration in die Entwicklungsumgebung ein wichtiger Faktor. 
+Tools für Continuous Integration (CI) und Continuous Deployment (CD) sollten nahtlos mit den 
+Code-Repositories zusammenarbeiten, um automatisierte Tests und Bereitstellungen zu ermöglichen. 
+Dies trägt zur Effizienz und Qualität der Entwicklungsprozesse bei.
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid Placement</title>
+    <title>Grid</title>
     <style>
         body {
             padding: 0;
@@ -15,11 +15,8 @@
             height: 100vh;
             display: grid;
             gap: 3rem;
-            /* Abstand zwischen den Grid-Elementen */
             grid-template-columns: 1fr 1fr;
-            /* Definiert zwei Spalten */
             grid-template-rows: 1fr 1fr;
-            /* Definiert zwei Zeilen */
         }
 
         .item {
@@ -31,23 +28,17 @@
 
         .cowboy {
             background-color: #00B9FF;
-            /* Hintergrundfarbe für den Cowboy Emoji */
             grid-area: 1 / 1 / 2 / 2;
-            /* Platzierung in der ersten Zeile und ersten Spalte */
         }
 
         .astronaut {
             background-color: #03989E;
-            /* Hintergrundfarbe für den Astronauten Emoji */
             grid-area: 2 / 1 / 3 / 2;
-            /* Platzierung in der zweiten Zeile und ersten Spalte */
         }
 
         .book {
             background-color: #E58331;
-            /* Hintergrundfarbe für das Buch Emoji */
             grid-area: 1 / 2 / 3 / 3;
-            /* Platzierung in der ersten und zweiten Zeile der zweiten Spalte */
         }
     </style>
 </head>
