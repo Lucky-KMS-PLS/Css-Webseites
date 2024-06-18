@@ -1,0 +1,106 @@
+/* Anpassungen für das Layout des Headers */
+.navbar {
+    padding: 0.5rem 1rem;
+    /* Reduzieren des Abstands innerhalb der Navbar */
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    /* Größere Schrift für das Logo */
+    font-weight: bold;
+    /* Fettdruck für das Logo */
+}
+
+.navbar-nav {
+    flex-grow: 1;
+    /* Flex Container wächst und füllt den Raum */
+    justify-content: center;
+    /* Zentriert die Navigationselemente */
+}
+
+.form-control {
+    width: 140px;
+    /* Feste Breite für das Suchfeld */
+}
+
+.btn-outline-success {
+    color: #0f5132;
+    /* Farbanpassung für den Such-Button */
+}
+
+/* Stile für die Event-Karte */
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card {
+    background-image: url('path_to_your_event_image.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    margin: 20px auto;
+    /* Zentrieren der Karte und Abstand zum Header */
+}
+
+.content {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.event-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 5px 0;
+}
+
+.event-date {
+    font-size: 1em;
+    color: #555;
+    margin: 0 0 15px 0;
+}
+
+.newsletter {
+    font-size: 0.8em;
+    color: #666;
+    margin: 0 0 20px 0;
+}
+
+.btn-register {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto 0;
+    width: fit-content;
+}
+
+.btn-register:hover {
+    background-color: #ff5722;
+}
